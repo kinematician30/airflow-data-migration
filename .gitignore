@@ -1,2 +1,4 @@
 .idea
 .venv
+config.yaml
+anime_extraction.log
