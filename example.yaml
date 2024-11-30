@@ -1,0 +1,17 @@
+database:
+  host: localhost
+  port: 5432
+  database: anime_db
+  user: your_username
+  password: your_password
+
+api_extraction:
+  max_pages: 10
+  rate_limit_delay: 2  # seconds between requests
+
+logging:
+  level: INFO
+  file: anime_extraction.log
+
+output:
+  csv_path: anime_data.csv
