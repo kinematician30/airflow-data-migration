@@ -231,7 +231,7 @@ class JikanDataExtractor:
                 conn.close()
 
 
-def load_config(config_path="config.yaml"):
+def load_config(config_path="..//config.yaml"):
     """
     Load configuration from YAML file
     Args:
@@ -251,6 +251,7 @@ def load_config(config_path="config.yaml"):
 def main():
     # Load configuration
     config = load_config()
+    print("Getting Config file to connect.")
     # Initialize extractor
     extractor = JikanDataExtractor(config)
 
